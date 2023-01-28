@@ -34,3 +34,27 @@ Job Scraper is a Python script that scrapes job listings from the website "Wuzzu
     ```bash
     http://localhost:5000/
     ```
+
+## Tested Environments
+
+* Ubuntu 20.04.
+
+   If you have successfully tested this script on others systems or platforms please let me know!
+
+---
+
+## Support 
+
+ If you want to support this project, please consider donating:
+ * PayPal: https://paypal.me/OsamaYusuf
+ * Buy me a coffee: https://www.buymeacoffee.com/OsamaYusuf
+ * ETH: 0x507bF8931b534a81Ced18FDf8fc5BE4Daf08332B
+
+---
+
+* `By Osama-Yusuf`
+* `Thanks for reading`
+
+-------
+##### Report bugs for "Job-Scraper"
+* `osama9mohamed5@gmail.com`
