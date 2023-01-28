@@ -1,0 +1,36 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid rgba(189, 189, 189, 0.932);
+  border-radius: 5px;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.title_click {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.title_click:hover {
+  color: red;
+}
+
+td.date {
+  width: 77px;
+}

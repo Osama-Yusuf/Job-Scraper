@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuzzuf</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}" type="image/x-icon">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Company</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for job in jobs %}
+            <tr>
+                <td><a class="title_click" href={{ job.url }} target="_blank" >{{ job.title }}</a></td>
+                <td>{{ job.company }}</td>
+                <td>{{ job.location }}</td>
+                <td class="date">{{ job.date }}</td>
+                <td class="date">{{ job.type }}</td>
+                <td>{{ job.description }}</td>
+                <!-- <td>{{ job.url }}</td> -->
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+
+</html>
