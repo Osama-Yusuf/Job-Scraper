@@ -11,7 +11,7 @@ def index():
     # Create a list to store the job details
     jobs = []
 
-    # Loop through the first 5 pages
+    # Loop through the first 9 pages
     for i in range(0, 10):
         url = f"https://wuzzuf.net/search/jobs/?a=hpb%7Cspbg&filters%5Bcareer_level%5D%5B0%5D=Entry%20Level&filters%5Bcareer_level%5D%5B1%5D=Experienced&q=devops&start={i}"
         page = requests.get(url)
